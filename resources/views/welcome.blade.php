@@ -37,7 +37,10 @@
             <div class="col-md-7 mh-100">
                 <h2 class="featurette-heading">Nem mindegy, hogy hol terem a növény. <span class="text-muted"> Amit a paprikáról tudni kell, azt mi tudjuk.... </span></h2>
                 <p class="lead">
-                    A Gurmano termékekhez főleg a Pelagonija régióban termesztett alapanyagokat használjuk. A Crna és Krushevska Reka folyók tiszta vízhez való hozzáférés egész évben lehetővé teszi, hogy ez a régió kivételesen alkalmas legyen a kerti növények termesztésére. Közülük a "Kurtovska Kapija" (Capsicum annuum var. Annuum (Grossum Group) "Kurtovska kapija" paprika, amely édes, húsos és lapos gyümölcs, jelentős mennyiségű vitaminnal, cukorral és fehérjével, a legtöbb termék fő összetevője a Gurmano termékeknek.</p>
+                    A Gurmano termékekhez főleg a Pelagonija régióban termesztett alapanyagokat használjuk. A Crna és Krushevska Reka folyók tiszta vízéhez való
+                    hozzáférés egész évben lehetővé teszi, hogy ez a régió kivételesen alkalmas legyen a kerti növények termesztésére. Közülük a "Kurtovska Kapija"
+                    (Capsicum annuum var. Annuum (Grossum Group) "Kurtovska kapija" paprika, amely édes, húsos és lapos zöldség, jelentős mennyiségű vitaminnal, cukorral
+                    és fehérjével, a legtöbb termék fő összetevője a Gurmano termékeknek.</p>
             </div>
             <div class="col-md-5">
                 <img class="img-fluid shadow" src="/images/feature/worker_english.jpg" alt="Kedvvel teli munka">

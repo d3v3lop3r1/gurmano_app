@@ -39,7 +39,12 @@
 
         <hr class="featurette-divider">
         <div class="container text-center bg-light p-4">
-            <h2>Összes termék</h2>
+            @if (isset($head_text))
+            <h2>{{ $head_text }}</h2>
+            @else
+                <h2>Összes Termék</h2>
+
+            @endif
         </div>
 
         <div class="row">

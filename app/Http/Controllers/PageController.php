@@ -15,22 +15,26 @@ class PageController extends Controller
 
     public function gurmano_products(){
         $gurmano_products = Product::where('producer','Gurmano')->get();
-        return view('gurmano_products', compact('gurmano_products'));
+        $head_text = "Gurmano Termékek";
+        return view('gurmano_products', compact('gurmano_products','head_text'));
     }
 
     public function gurmano_sour(){
         $gurmano_products = Product::where('producer','Gurmano')->where('group','sour')->get();
-        return view('gurmano_products', compact('gurmano_products'));
+        $head_text = "Hagyományos Savanyúságok";
+        return view('gurmano_products', compact('gurmano_products','head_text'));
     }
 
     public function gurmano_roasted(){
         $gurmano_products = Product::where('producer','Gurmano')->where('group','roasted')->get();
-        return view('gurmano_products', compact('gurmano_products'));
+        $head_text = "Delikát Sült Termékek";
+        return view('gurmano_products', compact('gurmano_products','head_text'));
     }
 
     public function gurmano_cheese(){
         $gurmano_products = Product::where('producer','Gurmano')->where('group','cheese')->get();
-        return view('gurmano_products', compact('gurmano_products'));
+        $head_text = "Sajttal Készített Termékek";
+        return view('gurmano_products', compact('gurmano_products','head_text'));
     }
 
 }
